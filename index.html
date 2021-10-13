@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Parcial Semana 34</title>
+<style>
+	.cuadro{
+		position: absolute;
+		background: #08298A;
+		top: 200px;
+		left: 400px;
+		box-sizing: border-box;
+		border: black solid 3px;
+		width: 1100px;
+		height: 600px;
+
+	}
+.info1{
+		position: absolute;
+		background: #FFBF00;
+		top: 210px;
+		left: 450px;
+		box-sizing: border-box;
+		border: black solid 3px;
+		width: 150px;
+		height: 90px;
+		padding-top:30px;
+		padding-left: 40px;
+		font-size: 20px;
+		color: black;
+}
+.info2{
+		position: absolute;
+		background: #FFBF00;
+		top: 690px;
+		left: 1310px;
+		box-sizing: border-box;
+		border: black solid 3px;
+		width: 150px;
+		height: 90px;
+		padding-top:30px;
+		padding-left: 40px;
+		font-size: 20px;
+		color: black;
+}
+.c1{
+		position: absolute;
+		background: #298A08;
+		top: 290px;
+		left: 610px;
+		box-sizing: border-box;
+		border: black solid 3px;
+		width: 0px;
+		height: 390px;
+		font-size: 20px;
+		color: black;
+		z-index: 2px;
+			
+			transition: all 2s;
+}
+.c2{
+		position: absolute;
+		background: #298A08;
+		top: 290px;
+		left: 610px;
+		box-sizing: border-box;
+		border: black solid 3px;
+		width: 0px;
+		height: 390px;
+		font-size: 20px;
+		color: black;
+		z-index: 3px;
+		transition: all 2s;
+	
+}
+.cerra1{
+	position: absolute;
+		background: #0B610B;
+		top: 350px;
+		left: 630px;
+		box-sizing: border-box;
+		border: black solid 3px;
+		width: 0px;
+		height: 30px;
+		z-index: 4px;
+			padding-top:0px;
+		padding-left: 0px;
+		font-size: 0px;
+		color: white;
+		z-index: 3px;
+		transition: all 2s;
+}
+.cerra2{
+	position: absolute;
+		background: #0B610B;
+		top: 350px;
+		left: 630px;
+		box-sizing: border-box;
+		border: black solid 3px;
+		width: 60px;
+		height: 30px;
+		z-index: 4px;
+			padding-top:0px;
+		padding-left: 0px;
+		font-size: 20px;
+		color: white;
+		z-index: 3px;
+
+}
+.audio{
+	position: absolute;
+	top: 210px;
+	left: 1340px;
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	background: #FFBF00;
+	border: black solid 3px;
+	padding-top:30px;
+		padding-left: 15px;
+		font-size: 20px;
+		color: black;
+		box-sizing: border-box;
+}
+.jgo{
+position: absolute;
+	
+	left: 1px;
+	width: 700px;
+	height: 100px;	
+	font-size: 0px;
+	transition: all 2s;
+}
+.img1{
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	width: 0px;
+	transition: all 2s;
+	border: solid black 3px;
+	height: 0px;
+
+}
+.jgo2{
+	position: absolute;
+	
+	left: 1px;
+	width: 700px;
+	height: 100px;	
+	font-size: 0px;
+	transition: all 2s;
+}
+.img2{
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	width: 0px;
+	transition: all 2s;
+	border: solid black 3px;
+	height: 0px;
+}
+</style>
+</head>
+<body bgcolor="#81BEF7">
+
+<div class="cuadro" id="xdu6"></div>
+
+
+<div class="c1" id="xdu7"><div class="img1" id="xdm"><img src="olpm.png"></div> <div class="jgo" id="xdu8">Conjunto de competiciones deportivas que tiene lugar cada cuatro años en una ciudad determinada de antemano y en la que participan la mayoría de los países con sus mejores deportistas.</div><div class="cerra1"  id="xdu5"  onclick="document.getElementById('xdu7').style.width='0px',document.getElementById('xdu8').style.fontSize='0px',document.getElementById('xdm').style.width='0px',document.getElementById('xdm').style.display='none'">Cerrar</div></div>
+<div class="c2" id="xdu"><div class="img2" id="xdk"><img src="olpm1.jpg"></div><div class="jgo2" id="xdu9">Minecraft es un videojuego de construcción, de tipo «mundo abierto» o sandbox creado originalmente por el sueco Markus Persson, ​ y posteriormente desarrollado por su empresa, Mojang Studios.</div>
+<div class="cerra2" id="xdu4" onclick="document.getElementById('xdu').style.width='0px',document.getElementById('xdu9').style.fontSize='0px',document.getElementById('xdk').style.display='none'">Cerrar</div></div>
+<div class="audio" id="xdu1"><audio src="audio.mp3" id="xdf" loop></audio>Musica?</div>
+<div class="info1" id="xdu2"  onclick="document.getElementById('xdk').style.display='none',document.getElementById('xdu7').style.width='700px',document.getElementById('xdu8').style.fontSize='20px',document.getElementById('xdu8').style.color='white',document.getElementById('xdu5').style.width='60px',document.getElementById('xdu5').style.fontSize='20px',document.getElementById('xdm').style.width='288px',document.getElementById('xdm').style. height='175px',document.getElementById('xdu4').style.display='none',document.getElementById('xdm').style.display='block'">Tema1</div>
+<div class="info2" id="xdu3"  onclick="document.getElementById('xdk').style.display='block',document.getElementById('xdu').style.width='700px',document.getElementById('xdu7').style.display='none',document.getElementById('xdu4').style.display='block',document.getElementById('xdu9').style.fontSize='20px',document.getElementById('xdu9').style.color='white',document.getElementById('xdk').style.width='275px',document.getElementById('xdk').style.height='183px'">Tema2</div>
+
+
+</body>
+</html>
